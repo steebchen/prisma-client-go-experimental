@@ -12,6 +12,8 @@ import (
 	"github.com/prisma/prisma-client-go/generator/runtime"
 	"github.com/prisma/prisma-client-go/generator/raw"
 	"github.com/prisma/prisma-client-go/generator/builder"
+
+	_ "github.com/steebchen/go-binaries/binaries/query-engine"
 )
 
 // re-declare variables which are needed in Prisma Client Go but also should be exported
